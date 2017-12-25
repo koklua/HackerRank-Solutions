@@ -1,3 +1,5 @@
+//https://www.hackerrank.com/challenges/torque-and-development/problem
+
 import java.io.*;
 import java.util.*;
 import java.math.*;
