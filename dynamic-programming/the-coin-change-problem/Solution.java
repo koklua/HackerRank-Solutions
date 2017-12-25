@@ -4,7 +4,7 @@ import java.util.*;
 public class Solution {
 
     static long getWays(int sum, int types, int[] coin){
-		//outer loop iterates through each coin type
+	//outer loop iterates through each coin type
         //inner loops iterate over the occurrences of the corresponding coin type
         //the totals are stored in a one dimensional array to connect separate inner loops through storage
         //inner loop starts from the case where the sub-total = value of current coin, propagates possible combinations bottom up
