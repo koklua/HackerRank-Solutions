@@ -19,7 +19,7 @@ public class Solution {
         int rowQueen = in.nextInt();
         int colQueen = in.nextInt();
         int[] direction = new int[8];
-		//initialize distances to the ends of the board one by one (seems sloppy)
+	//initialize distances to the ends of the board one by one (seems sloppy)
         direction[0] = rowQueen-1;
         direction[1] = Math.min(rowQueen-1,colQueen-1);
         direction[2] = colQueen-1;
