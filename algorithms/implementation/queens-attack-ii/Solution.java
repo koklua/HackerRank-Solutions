@@ -1,3 +1,5 @@
+//https://www.hackerrank.com/challenges/queens-attack-2/problem
+
 import java.io.*;
 import java.util.*;
 import java.math.*;
