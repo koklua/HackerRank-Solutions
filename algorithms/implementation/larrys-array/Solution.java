@@ -25,7 +25,7 @@ public class Solution {
                     array[index+1] = array[index-1];
                     array[index-1] = temp;
                 }else{
-                    //System.out.println("double rotation with element starting from far right");
+                    //System.out.println("single rotation with element starting from far right");
                     index_of[array[index-2]] = index;
                     index_of[array[index-1]] = index-2;
                     index_of[array[index]] = index-1;
