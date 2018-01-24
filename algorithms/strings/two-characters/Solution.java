@@ -1,7 +1,7 @@
-import java.io.*;
-import java.util.*;
 //https://www.hackerrank.com/challenges/two-characters/problem
 
+import java.io.*;
+import java.util.*;
 import java.text.*;
 import java.math.*;
 import java.util.regex.*;
