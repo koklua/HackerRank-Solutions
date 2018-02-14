@@ -24,7 +24,7 @@ public class Solution {
         
         //try to maximize the number as much as the budget allows by changing digits to 9 on both ends of the number
         int i = 0;
-        while(budget > 0 && i < n){
+        while(budget > 0 && i < n/2){
             if(array[i] != array[n-1-i])//if it's a digit that's already in the count, refund the budget
                 budget++;
             if(budget >= 2 && i < n-1-i){//if the budget allows it, change digits to 9
